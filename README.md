@@ -1,4 +1,6 @@
 # Conveniently interact with the Flutterwave API with ease!
+![run-tests](https://github.com/digikraaft/flutterwave-php/workflows/run-tests/badge.svg)
+[![Build Status](https://travis-ci.com/digikraaft/flutterwave-php.svg?token=6YhB5FxJsF7ENdMM7Mzz&branch=master)](https://travis-ci.com/digikraaft/flutterwave-php)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 This package provides an expressive and convenient way to interact with the [Flutterwave API](https://developer.flutterwave.com/reference).

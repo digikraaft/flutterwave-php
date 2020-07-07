@@ -114,8 +114,8 @@ trait Request
                 Flutterwave::$apiBase . '/' . $url,
                 ['body' => json_encode($body)]
             );
-            return static::$response;
 
+            return static::$response;
         } catch (ClientException $exception) {
             throw new ApiErrorException($exception->getMessage());
         }

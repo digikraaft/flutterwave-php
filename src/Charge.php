@@ -143,5 +143,4 @@ class Charge extends ApiResource
 
         return static::staticRequest('POST', $url, $params);
     }
-
 }

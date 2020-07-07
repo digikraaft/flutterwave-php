@@ -60,5 +60,4 @@ class Bill extends ApiResource
 
         return static::staticRequest('GET', $url);
     }
-
 }

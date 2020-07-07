@@ -47,5 +47,4 @@ class Biller extends ApiResource
 
         return static::staticRequest('PUT', $url, $params);
     }
-
 }

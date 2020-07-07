@@ -24,6 +24,7 @@ class ApiResource
     public static function classUrl()
     {
         $base = static::OBJECT_NAME;
+
         return "{$base}";
     }
 
@@ -38,11 +39,13 @@ class ApiResource
     {
         if (null === $id) {
             $message = 'Invalid ID supplied. ID cannot be null';
+
             throw new InvalidArgumentException($message);
         }
         $id = Util\Util::utf8($id);
         $base = static::classUrl();
         $extn = urlencode($id);
+
         return "{$base}/{$extn}";
     }
 
@@ -55,6 +58,7 @@ class ApiResource
     {
         $slug = Util\Util::utf8($slug);
         $base = static::classUrl();
+
         return "{$base}/{$slug}";
     }
 
@@ -70,6 +74,7 @@ class ApiResource
         if (! empty($params)) {
             $url .= '?'.http_build_query($params);
         }
+
         return $url;
     }
 }

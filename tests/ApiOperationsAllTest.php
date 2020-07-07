@@ -3,7 +3,6 @@
 namespace Digikraaft\Flutterwave\Tests;
 
 use Digikraaft\Flutterwave\Beneficiary;
-use Digikraaft\Flutterwave\Customer;
 use Mockery as mk;
 use PHPUnit\Framework\TestCase;
 

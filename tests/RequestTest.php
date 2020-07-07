@@ -3,7 +3,6 @@
 namespace Digikraaft\Flutterwave\Tests;
 
 use Digikraaft\Flutterwave\ApiOperations\Request;
-use Digikraaft\Flutterwave\Bill;
 use Digikraaft\Flutterwave\Biller;
 use Digikraaft\Flutterwave\Exceptions\ApiErrorException;
 use Digikraaft\Flutterwave\Exceptions\InvalidArgumentException;

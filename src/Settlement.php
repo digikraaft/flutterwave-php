@@ -8,5 +8,4 @@ class Settlement extends ApiResource
 
     use ApiOperations\All;
     use ApiOperations\Fetch;
-
 }

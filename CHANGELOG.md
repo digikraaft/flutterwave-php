@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to `paystack-php` will be documented in this file
+All notable changes to `flutterwave-php` will be documented in this file
 
 ## v1.0.2 - 2020-06-18
 - Removed redundant ApiErrorException Exception
